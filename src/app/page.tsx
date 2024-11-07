@@ -11,16 +11,16 @@ import BannerImageThree from "@/public/png/image (9).png"
 import IntroSectionBanner from "@/public/png/Rectangle 34624379.png"
 import ServiceImage from "@/public/png/image (7).png"; 
 import Lines from "@/public/png/Lines.png"
-import ButtonFill from './components/button-fill/button.fill';
-import ButtonBorder from './components/button-border/button-border';
-import ServiceCard from './components/service-card/service-card';
+import ButtonFill from '../components/button-fill/button.fill';
+import ButtonBorder from '../components/button-border/button-border';
+import ServiceCard from '../components/service-card/service-card';
 import { FaArrowRightLong } from "react-icons/fa6";
-import VideoPlayer from './components/video-player/video-player';
-import Testimonial from './components/testimonial/testimonial';
-import Faq from './components/faq/faq';
-import ContactCard from './components/contact-card/contact-card';
-import CallToAction from './components/cta-card/cta-card';
-import ImageWithOverlay from './components/image-with-overlay/image-with-overlay';
+import VideoPlayer from '../components/video-player/video-player';
+import Testimonial from '../components/testimonial/testimonial';
+import Faq from '../components/faq/faq';
+import ContactCard from '../components/contact-card/contact-card';
+import CallToAction from '../components/cta-card/cta-card';
+import ImageWithOverlay from '../components/image-with-overlay/image-with-overlay';
 import Link from 'next/link';
 
 export default function Home() {

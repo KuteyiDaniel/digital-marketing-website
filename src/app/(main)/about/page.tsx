@@ -6,7 +6,7 @@ import IntroSectionBanner from "@/public/png/Rectangle 34624379.png"
 import CEOImage from "@/public/png/image (13).png"
 import COOImage from "@/public/png/image (14).png"
 import CTOImage from "@/public/png/image (12).png"
-import ImageWithOverlay from '@/app/components/image-with-overlay/image-with-overlay'
+import ImageWithOverlay from '@/src/components/image-with-overlay/image-with-overlay'
 
 const About = () => {
   return (

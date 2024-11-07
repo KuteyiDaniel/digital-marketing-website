@@ -1,7 +1,7 @@
 import { DM_Sans, Montserrat, Nunito, Urbanist, Work_Sans, Lexend } from 'next/font/google';
 import "./globals.css";
-import NavigationBar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
+import NavigationBar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
 
 const dmSans = DM_Sans({
   subsets: ['latin'],

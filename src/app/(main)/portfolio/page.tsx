@@ -1,9 +1,9 @@
-import Banner from "@/app/components/banner/banner";
+import Banner from '@/src/components/banner/banner';
 import PortfolioBannerImage from "@/public/jpg/laptop-1035345_1280.jpg";
 import DigitalMarketingImage from "@/public/png/digital-marketing.png";
 import OfferImage from '@/public/png/arrow.png';
 import Image from "next/image";
-import CallToAction from "@/app/components/cta-card/cta-card";
+import CallToAction from '@/src/components/cta-card/cta-card';
 import styles from './portfolio.module.scss';
 
 interface OfferProps {

@@ -1,5 +1,5 @@
-import ContactCard from '@/app/components/contact-card/contact-card'
-import CallToAction from '@/app/components/cta-card/cta-card'
+import ContactCard from '@/src/components/contact-card/contact-card'
+import CallToAction from '@/src/components/cta-card/cta-card'
 import styles from './contact.module.scss'
 const Contact = () => {
   return (

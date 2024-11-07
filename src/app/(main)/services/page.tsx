@@ -1,9 +1,9 @@
-import Faq from "@/app/components/faq/faq";
+import Faq from '@/src/components/faq/faq';
 import styles from './services.module.scss';
-import Banner from "@/app/components/banner/banner";
+import Banner from '@/src/components/banner/banner';
 import ServiceBannerImage from "@/public/jpg/workplace-5517744_1280.jpg";
 
-import ServiceCard from "@/app/components/service-card/service-card";
+import ServiceCard from '@/src/components/service-card/service-card';
 import ServiceImage from "@/public/png/image (7).png"; 
 
 const services = [

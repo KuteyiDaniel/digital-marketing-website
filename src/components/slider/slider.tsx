@@ -2,7 +2,7 @@
 
 import React, {useEffect, useMemo, useRef, useState} from "react";
 import styles from "./slider.module.scss"
-import {getBreakpointItems} from "@/app/helpers/helperFunctions";
+import { getBreakpointItems } from "@/src/app/helpers/helperFunctions";
 // import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from "react-icons/io";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import {cloneDeep} from "lodash";
