@@ -1,0 +1,41 @@
+.page__width{
+    width: calc(100% - 5rem);
+    margin: 35px auto;
+}
+.faq__section{
+    padding: 0px 0px 35px 0px;
+    .faq__header{
+        color: var(--text-header);
+        font-size: var(--text-header-size);
+        font-weight: var(--text-header-font-weight);
+        font-family: var(--font-lexend);
+        text-align: center;
+    }
+
+    .faq__brief{
+        color: var(--text-paragraph);
+        // max-width: 65%;
+        margin: 25px 0px 65px 0px;
+        text-align: center;
+    }
+
+}
+
+.service__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.service__text{
+    margin: 45px auto;
+    width: 65%;
+    text-align: center;
+    line-height: 30px;
+    // color: var(--text-paragraph);
+    // color: var(--text-banner);
+    // background: var(--banner-text-background);
+    // -webkit-background-clip: var(--banner-text-webkit);
+    // -webkit-text-fill-color: var(--banner-webkit-text-fill-color)
+}

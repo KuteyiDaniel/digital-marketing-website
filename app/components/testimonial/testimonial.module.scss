@@ -1,0 +1,53 @@
+.testimonial__slide__background {
+    background: var(--testimonial-bg);
+    width: calc(75% - 5rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 200px;
+    height: 200px; 
+    border-radius: 15px;
+
+
+    .testimonial__slide {
+        height: auto; 
+        background: var(--testimonial-theme);
+        border: 1.5px solid rgba(54, 74, 54, 0.06);
+        // border: 1px solid black;
+        width: 95%;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box; // padding and borders don’t affect total width
+        overflow: hidden; // Avoid overflow issues
+     
+
+        .feedback {
+            line-height: 25px;
+            font-weight: 700;
+            max-width: 75%;
+        }
+
+        .customer__information {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                font-weight: 500;
+                margin: 35px 0px 10px 0px;
+            }
+
+            span {
+                color: var(--text-paragraph);
+                font-size: 13px;
+                font-weight: 500;
+                font-family: var(--font-work-sans);
+            }
+
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.contact__section{
+    padding: 75px 0px 0px 0px;
+    font-family: var(--font-primary);
+    .contact__banner{
+        // height: 65vh;
+        // padding: 100px 0px;
+        padding: 85px 0px 45px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--banner-gradient);
+        font-size: 34px;
+        font-weight: 800;
+        font-family: var(--font-lexend);
+        color: var(--faq-question);
+    }
+}
+
+

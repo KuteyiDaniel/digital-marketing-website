@@ -1,0 +1,87 @@
+/* Default Light Mode Variables */
+:root {
+  --background-color: rgba(255, 255, 255, 1);
+  --text-color: black;
+  --text-header: #260939;
+  --text-header-size: 34px;
+  --text-paragraph:rgba(0, 0, 0, 0.5);
+  --text-banner: rgba(255,255,255,1);
+  --text-header-size: 34px;
+  --text-header-font-weight: 800;
+  --bg-gradient: linear-gradient(180deg, #170E9B 0%, #260939 100%);
+  --faq-border: 1px solid linear-gradient(180deg, rgba(0, 80, 189, 0.04) 26.88%, rgba(0, 80, 189, 0.2) 100%);
+  --bg-banner-button-fill: rgba(38, 9, 57, 1);
+  --color-banner-button-fill: rgba(255, 255, 255, 1);
+  --bg-button-fill: rgba(38, 9, 57, 1);
+  --color-button-fill: rgba(255, 255, 255, 1);
+  --border-button-border: 1px solid rgba(23, 14, 155, 1);
+  --color-button-border:rgba(23, 14, 155, 1);
+  --brand-description-text: rgba(0, 0, 0, 0.5);
+  --arrow-bg: rgba(255, 255, 255, 1);
+  --arrow-sub-bg:rgba(205, 4, 195, 1);
+  --service-button-border: 1.25px solid rgba(38, 9, 57, 1);
+  --service-button-color: rgba(38, 9, 57, 1);
+  --testimonial-bg: rgba(227, 198, 246, 0.5);
+  --testimonial-theme:rgba(255, 255, 255, 1);
+  --dot-background: rgba(0, 0, 0, .1);
+  --dot-hover-background: rgba(0, 0, 0, .5);
+  --faq-question: rgba(38, 9, 57, 1);
+  --faq-bg:rgba(255, 255, 255, 1);
+  --banner-gradient:  radial-gradient(50% 50% at 50% 50%, rgba(176, 72, 171, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+
+  /*Font Families*/
+  /* --font-primary: 'DM Sans', sans-serif;
+  --font-secondary: 'Montserrat', sans-serif;
+  --font-tertiary: 'Nunito', sans-serif;
+  --font-urbanist: 'Urbanist', sans-serif;
+  --font-work-sans: 'Work Sans', sans-serif;
+  --font-lexend: 'Lexend', sans-serif; */
+}
+
+/* Dark Mode Variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: rgba(10, 13, 12, 1);
+    --text-color: rgba(255, 255, 255, 0.75);
+    --text-header: #B451AF;
+    --banner-text-background: linear-gradient(180deg, #CD04C3 0%, #FFFFFF 100%);
+    --banner-text-webkit: text;
+    --banner-webkit-text-fill-color: transparent;
+    --text-paragraph:  rgba(255, 255, 255, 0.75);
+    --brand-description-text: rgba(255, 255, 255, 1);
+    --bg-button-fill: rgba(180, 81, 175, 1);
+    --color-banner-button-fill:  rgba(38, 9, 57, 1);
+    --bg-banner-button-fill: rgba(255, 255, 255, 1);
+    --bg-button-fill: rgba(180, 81, 175, 1);
+    --color-button-fill: rgba(255, 255, 255, 1);
+    --border-button-border: 1px solid rgba(205, 4, 195, 1);
+    --color-button-border:rgba(205, 4, 195, 1);
+    --arrow-bg:  rgba(10, 13, 12, 1);
+    --arrow-sub-bg: rgba(180, 81, 175, 1);
+    --service-button-border: 1.25px solid rgba(180, 81, 175, 1);
+    --service-button-color: rgba(180, 81, 175, 1);
+    --testimonial-bg: rgba(180, 81, 175, 0.5);
+    --testimonial-theme: rgba(10, 13, 12, 1);
+    --dot-background: rgba(180, 81, 175, 0.3);
+    --dot-hover-background:rgba(180, 81, 175, 0.7);
+    --faq-question: rgba(255, 255, 255, 0.75);
+    --faq-bg: rgba(10, 13, 12, 1);
+    --banner-gradient: radial-gradient(50% 50% at 50% 50%, rgba(176, 72, 171, 0.3) 0%, rgba(10, 13, 12, 0.3) 100%);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans', 'Montserrat', 'Nunito', 'Urbanist', 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-primary);
+}
+

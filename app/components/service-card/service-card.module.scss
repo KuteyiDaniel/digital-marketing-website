@@ -1,0 +1,84 @@
+
+  
+    .service{
+        width: 30.5%;
+    
+
+        .image__container{
+            width: 100%;
+            border-radius: 25px;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    
+        .text__container{
+            position: relative;
+
+            .service__detail{
+                margin: 25px 0px 45px  0px;
+                // border-radius: 30px;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 55px;
+                padding: 20px 25px;
+                height: 175px;
+                background: var(--bg-gradient);
+                color: rgba(217, 217, 217, 1);
+                // width: 95%;
+
+                header{
+                    margin: 0px 0px 20px 0px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-family: var(--font-lexend);
+                }
+
+                .detail{
+                    font-size: 15px;
+                    font-family: var( --font-work-sans);
+                    line-height: 20px;
+                }
+            }
+
+            .arrow__container{
+                position: absolute;
+                bottom: -10px;
+                right: -5px;
+                width: 65px;
+                height: 65px;
+                background: var(--arrow-bg);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .arrow__sub__container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: var(--arrow-sub-bg);
+                    color: rgba(255, 255, 255, 1);
+                    width: 62.5%;
+                    height: 62.5%;
+                    border-radius: 50%;
+                }
+            }
+
+            // .test__container{
+            //     position: absolute;
+            //     top: 5%;
+            //     right: -5px;
+            //     border-radius: 50%;
+            //     // background: transparent;
+            //     background: red;
+            //     height: 35px;
+            //     width: 35px;
+            //     z-index: 2;
+            // }
+        }
+    }

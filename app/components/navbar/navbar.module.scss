@@ -1,0 +1,89 @@
+.navigation__section{
+   position: fixed;
+   width: 100%; z-index: 2;
+   
+
+   .navigation__bar{
+        width: 100%;
+        background: var(--bg-gradient);
+        // padding: 17.5px 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        @media screen and (min-width:720px) {
+            padding: 13.5px 45px;
+        }
+
+        @media screen and (max-width:720px) {
+            padding: 17.5px 10px;
+        }
+
+        .company__logo{
+            max-width: 188px;
+            max-height: 35px;
+            object-fit: contain;
+        }
+
+        .navigation__button{
+            box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2) inset;
+            background:  rgba(255, 255, 255, 1) ;
+            padding: 12.5px 20px;
+            border-radius: 10px;
+            border: none;
+            color: #260939;
+            font-weight: 700;
+            font-family: var(--font-lexend);
+            cursor: pointer;
+
+            @media screen and (max-width:1024px) {
+                display: none;
+            }
+        }
+
+        .navigation__options{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            color: #ffffff;
+            gap: 35px;
+            font-family: var(--font-work-sans);
+
+       
+
+            .option{
+                list-style: none;
+                font-size: 15px;
+                cursor: pointer;
+              
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+
+            
+                @media screen and (max-width:1024px) {
+                    display: none;
+                }
+              
+            }
+
+            .option.active{
+
+                a{
+                    // font-weight: bold;
+                    font-weight: 600;
+                    color: #B451AF;
+                    font-family: var(--font-work-sans);
+                }
+              
+            }
+
+            
+        }
+   }
+}
+

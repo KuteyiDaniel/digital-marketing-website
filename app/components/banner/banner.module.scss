@@ -1,0 +1,35 @@
+.banner__container{
+    height: 85vh;
+    width: 100%;
+    position: relative;
+
+    .banner__image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .banner__overlay{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: var(--text-banner);
+        font-family: var(--font-lexend);
+
+        header{
+            background: var(--banner-text-background);
+            -webkit-background-clip: var(--banner-text-webkit);
+            background-clip: var(--banner-text-webkit);
+            -webkit-text-fill-color: var(--banner-webkit-text-fill-color);
+            font-size: 34px;
+            font-weight: 800;
+        }
+    }
+}

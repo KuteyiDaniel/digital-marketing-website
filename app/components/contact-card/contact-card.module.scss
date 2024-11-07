@@ -1,0 +1,168 @@
+.page__width{
+    width: calc(100% - 5rem);
+    margin: 35px auto;
+    padding: 75px 0px;
+    // border: 1px solid black;
+}
+
+$fieldOutline: 0px;
+$fieldFont: 15px;
+$fieldTextColor: rgba(131, 142, 158, 1);
+$fieldPadding: 12.5px 15px;
+$fieldBorder: 1.5px solid rgba(230, 232, 236, 1);
+
+.contact__card__container{
+    background: (253, 251, 253, 1);
+    // min-height: 100vh;
+    // margin: 45px 0px;
+
+    .contact__card{
+        // border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+
+        .contact__text{
+            width: 35%;
+            // background: pink;
+
+            header{
+                color: var(--text-header);
+                font-size: var(--text-header-size);
+                font-weight: var(--text-header-font-weight);
+                font-family: var(--font-lexend);
+            }
+
+            p{
+                margin: 25px 0px 45px 0px;
+                color: var(--faq-question);
+                line-height: 25px;
+                font-weight: 500;
+                font-size: 15px;
+            }
+
+            .contact__options{
+                line-height: 35px;
+               
+                .contact__option{
+                    display: flex;
+                    align-items: center;
+                    font-weight: 500;
+                    font-size: 15px;
+
+                    svg{
+                        color: rgba(180, 81, 175, 1);
+                    }
+
+                    span{
+                        color: var(--faq-question);
+                        margin: 0px 0px 0px 5px;
+                    }
+                }
+              
+             
+            }
+        }
+
+        .contact__form{
+            width: 50%;
+            box-shadow: 0px 24px 56px 0px rgba(6, 28, 61, 0.12);
+            border-radius: 15px;
+            padding: 35px 25px;
+            background: rgba(255, 255, 255, 1);
+
+            .form__header{
+                color: rgba(6, 28, 61, 1);
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+                margin: 0px 0px 45px 0px;
+            }
+
+
+            .input__field__container{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0px 0px 15px 0px;
+
+                .input__field{
+                    width: 45%;
+                    padding: $fieldPadding;
+                    color: $fieldTextColor;
+                    font-family: var(--font-primary);
+                    border: $fieldBorder;
+                    border-radius: 7px;
+                    outline: $fieldOutline;
+                    font-size: $fieldFont;
+                }
+            }
+
+            textarea{
+                padding: $fieldPadding;
+                color: $fieldTextColor;
+                font-family: var(--font-primary);
+                border: $fieldBorder;
+                border-radius: 7px;
+                outline: $fieldOutline;
+                width: 100%;
+                resize: none;
+                font-size: $fieldFont;
+            }
+
+            .attachment{
+                padding: 10px 15px;
+                background: rgba(0,0,0,0.05);
+                border-radius: 7px;
+                margin: 15px 0px 35px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 14px;
+    
+                span{
+                    color: rgba(66, 82, 107, 1);
+                }
+    
+                .upload__button{
+                    color: rgba(6, 28, 61, 1);
+                    background: rgba(255, 255, 255, 1);
+                    border-radius: 5px;
+                    padding: 7.5px 15px;
+                    font-weight: 800;
+                    font-size: 13px;
+                    border: none;
+                    font-family: var(--font-primary);
+                    cursor: pointer;
+                    width: fit-content;
+                }
+            }
+
+            .file__name{
+                margin: 0px 0px 5px 0px;
+            }
+    
+            .request__button{
+                width: 100%;
+                font-family: var(--font-primary);
+                font-size: 15px;
+                background: var(--bg-button-fill);
+                color: var(--color-button-fill);
+                border: none;
+                padding: 15px 35px;
+                border-radius: 10px;
+                font-weight: 700;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // margin: 35px 0px 0px 0px;
+                
+                    svg{
+                       margin: 0px 0px 0px 10px;
+                    }
+                }
+        }
+
+     
+    }
+}
